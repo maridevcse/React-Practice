@@ -1,0 +1,45 @@
+.App {
+  text-align: center;  
+}
+
+
+
+.autofit{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,400px));
+  justify-content: center;
+  grid-gap: 1em;
+  margin:12px;
+  justify-items: auto;
+
+} 
+
+.togglecockpit{
+  font-size: 15px;
+  padding:15px 30px;
+  border-radius: 100px;
+  background-color: brown;
+  color:white;
+  border:none;
+  font-weight: bolder;
+}
+.togglecockpit:active{
+  animation: press .2s ;
+}
+.togglecockpit:focus{
+  outline:0;
+}
+
+.togglecockpit:hover{
+  box-shadow: 0 5px 10px black; 
+}
+
+@keyframes press{
+  50%{
+    transform: translateY(6px);
+    box-shadow: 0 5px 10px black;
+  }
+  100%{
+    transform: none;
+  }
+}

@@ -1,0 +1,9 @@
+.inputText{
+    padding: 20px 30px;
+    border: 1px solid #777;
+    width: 50%;
+}
+
+.inputText::-webkit-input-placeholder{
+    color: red;
+}

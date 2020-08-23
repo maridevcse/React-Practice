@@ -1,0 +1,23 @@
+
+
+.Person {
+    border:1px solid black;
+    padding: 40px 70px;
+    text-align: start;
+  }
+  
+  
+ .Person:hover{
+      background-color:green;
+      color:white;
+  }
+  .Person:active{
+      background-color:red;
+      color:white;
+  }
+  
+  .Person .strech{
+    justify-self: stretch;
+  }
+  
+  
